@@ -39,7 +39,7 @@ function App() {
 
   useEffect(() => {
     // Connect to the Socket.IO server
-    const socketInstance = io("http://localhost:3000"); 
+    const socketInstance = io("https://chatbot-backend-wua2.onrender.com"); 
     setSocket(socketInstance);
 
     // Listen for incoming messages from the server
